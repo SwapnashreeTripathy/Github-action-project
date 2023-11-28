@@ -56,7 +56,7 @@ jobs:
         script: | 
 
           cd /home/ubuntu/
-          git clone https://github.com/AdarshIITDH/jenkins_aws.git
+          git clone https://github.com/SwapnashreeTripathy/Github-action-project.git
           sudo apt install -y python3-pip
           sudo pip install streamlit 
           sudo streamlit run /home/ubuntu/jenkins_aws/calculator.py
